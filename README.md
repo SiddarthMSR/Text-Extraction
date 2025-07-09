@@ -1,0 +1,1 @@
+Given an image with text, the model first tries to find the bounding boxes of characters using CV and then, using CNN (trained on MNIST) detects the charcter, and the order in which the sentence is displayed is determined by the positions of these bounding boxes.
