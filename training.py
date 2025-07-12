@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 from PIL import Image
 
-# For loading/preprocessing our data (took help of ChatGPT for code here)
+# For loading/preprocessing our data 
 class CSVDataset(Dataset):
     def __init__(self, csv_file, transform=None):
         self.data = pd.read_csv(csv_file)
